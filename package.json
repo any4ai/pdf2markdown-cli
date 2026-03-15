@@ -1,0 +1,49 @@
+{
+  "name": "pdf2markdown-cli",
+  "version": "1.0.0",
+  "description": "CLI for PDF2Markdown - convert PDF and image documents to clean Markdown",
+  "main": "dist/index.js",
+  "bin": {
+    "pdf2markdown": "dist/index.js",
+    "pdf2md": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "test:manual": "node scripts/test-manual.js",
+    "test": "node scripts/test-manual.js"
+  },
+  "keywords": [
+    "pdf2markdown",
+    "pdf2md",
+    "pdf",
+    "markdown",
+    "convert",
+    "cli",
+    "document"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdf2markdown/pdf2markdown-cli.git"
+  },
+  "homepage": "https://pdf2markdown.io/docs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
+}

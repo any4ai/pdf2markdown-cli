@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.pdf2markdown/
+.env
+*.log
+
+
+/cli/
+
+.opencode
+.pnpm-store
+.cursor
