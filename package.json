@@ -1,6 +1,6 @@
 {
   "name": "pdf2markdown-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for pdf2markdown.io — convert PDF and images to Markdown. Sync (30MB) and async (100MB). Skills for Cursor, Codex, OpenCode.",
   "main": "dist/index.js",
   "bin": {
