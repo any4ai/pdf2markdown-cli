@@ -55,7 +55,6 @@ pdf2markdown parse-async task_abc123 --result -o .pdf2markdown/output.md
 
 Or use `--wait` to do all in one command.
 
-## See also
+## Tips
 
-- [pdf2markdown-parse](../pdf2markdown-parse/SKILL.md) — sync parse for smaller files
-- [pdf2markdown-cli](../pdf2markdown-cli/SKILL.md) — main workflow
+- For smaller files (<30MB), prefer `pdf2markdown parse` — faster, no polling.

@@ -53,10 +53,5 @@ pdf2markdown parse document.pdf --format json -o .pdf2markdown/result.json
 ## Tips
 
 - Always quote URLs — shell interprets `?` and `&` as special characters.
-- For large files (>30MB), use [parse-async](../pdf2markdown-parse-async/SKILL.md).
+- For large files (>30MB), use `pdf2markdown parse-async --wait`.
 - Output directory: `.pdf2markdown/`
-
-## See also
-
-- [pdf2markdown-parse-async](../pdf2markdown-parse-async/SKILL.md) — large files (up to 100MB)
-- [pdf2markdown-cli](../pdf2markdown-cli/SKILL.md) — main workflow

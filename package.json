@@ -8,6 +8,8 @@
     "pdf2md": "dist/index.js"
   },
   "scripts": {
+    "prepublishOnly": "pnpm run build",
+    "release": "pnpm run build && pnpm publish",
     "build": "tsc",
     "dev": "tsc --watch",
     "start": "node dist/index.js",
@@ -37,6 +39,7 @@
   "files": [
     "dist",
     "skills",
+    "skills-unified",
     "README.md"
   ],
   "devDependencies": {
